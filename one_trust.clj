@@ -43,7 +43,7 @@
 (when :status 503 :action retry))
 )
 
-
+;;entity sybmited
 
  (entity DATA_SUBJECT
  (api-docs-url "https://developer.onetrust.com/onetrust/reference/getv3datasubjectprofilesusingpost")
@@ -59,6 +59,7 @@
   
  )
  
+ ;;sync plan exicuted
  (sync-plan
           (change-capture-cursor
             (query-params "sort" "desc")
